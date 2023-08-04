@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>stars</title>
+  <link rel="shortcut icon" href="../images/favicon-32x32.png" type="image/x-icon">
+  <style>
+
+    html {
+      font-size: 15px;
+    }
+    /*starred reviews*/
+
+    .starred-reviews,
+    .star-review {
+      display: flex;
+    }
+    .starred-reviews {
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .star-review {
+      flex-direction: column;
+      background-color: hsl(300, 24%, 96%);
+      border-radius: 1rem;
+      padding: 0.5rem;
+      align-items: center;
+    }
+    .star {
+      background-image: url("../images/icon-star.svg");
+      width: 17px;
+      height: 16px;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+  <div class="starred-reviews">
+    <div class="star-review">
+      <div class="stars-out-of-five">
+        <i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i>
+      </div>
+      <h2 class="star-review">Rated 5 Stars in Reviews</h2>
+    </div>
+    <div class="star-review">
+      <div class="stars-out-of-five">
+        <i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i>
+      </div>
+      <h2 class="star-review">Rated 5 Stars in Report Guru</h2>
+    </div>
+    <div class="star-review">
+      <div class="stars-out-of-five">
+        <i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i>
+      </div>
+      <h2 class="star-review">Rated 5 Stars in BestTech</h2>
+    </div>
+  </div>
+</body>
+</html>
