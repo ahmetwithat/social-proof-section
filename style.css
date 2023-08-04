@@ -124,7 +124,7 @@ main {
 }
 
 .star {
-  background-image: url("../images/icon-star.svg");
+  background-image: url("./images/icon-star.svg");
   width: 17px;
   height: 16px;
   display: inline-block;
